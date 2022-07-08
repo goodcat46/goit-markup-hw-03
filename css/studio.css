@@ -1,0 +1,129 @@
+/* ---------------------------ШАПКА СТОРІНКИ */
+
+/* ---------------------------ОСНОВНА ЧАСТИНА */
+
+/* ----------ЗАГОЛОВКИ СЕКЦІЙ */
+.section-tittle {
+  font-weight: var(--tittle-wght-bold);
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  color: var(--tittle-clr-bold);
+}
+/* ----------ГЕРОЙ */
+
+/* ФОН ГЕРОЙ */
+.hero {
+  background-color: #2F303A;
+  height: 600px;
+  align-items: center;
+
+  padding-top: 200px;
+}
+/* ТЕКСТ ГЕРОЙ */
+.hero .text-hero {
+  font-weight: var(--tittle-wght-bol2);
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  width: 696px;
+  margin: 0px auto;
+}
+
+/* ЗАМОВИТИ ПОСЛУГУ КНОПКА */
+.button-hero {
+  display: block;
+  background-color: var(--clr-btns-accent);
+  font-weight: var(--tittle-wght-bold);
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  align-items: center;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  padding: 10px 32px;
+  min-width: 200px;
+  border: 1px solid transparent;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-hero:focus,
+.button-hero:hover {
+  background: var(--clr-btns-hover);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.button-hero:active {
+  background-color: var(--clr-btns-nrml);
+  border-color: solid var(--clr-btns-accent);
+  color: var(--clr-btns-accent);
+}
+/* .button .btn-text {
+  font-weight: var(--tittle-wght-bold);
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+} */
+
+/* ----------ОСОБЛИВОСТІ */
+
+.spcls-tittles {
+  font-weight: var(--tittle-wght-bold);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--tittle-clr-bold);
+}
+.spcls-text {
+  line-height: 1.7;
+}
+
+/* ----------НАША КОМАНДА */
+
+.card-bckrnd {
+  background-color: #fff;
+  width: 270px;
+}
+
+/* ІМЕНА ПРАЦІВНИКІВ */
+.wrkr-card .wrkr-name {
+  font-weight: var(--text-wght-nrml2);
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--tittle-clr-bold);
+}
+
+/* ПОСАДИ ПРАЦІВНИКІВ */
+
+.wrkr-card .wrkr-position {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--color-text-primary);
+}
+
+/* КАРТИ ЯК ПОСИЛАННЯ. ефекти ХОВЕР і ФОКУС не змінюють кольору текстів  */
+
+.wrkr-card .card:focus,
+.wrkr-card .card:hover {
+  background-color: #e63434;
+  color: var(--accent-clr-elmnts)
+}
+.wrkr-card .card:active {
+  color: var(--accent-clr-elmnts)
+}
+
+
+
+/* ---------------------------ПІДВАЛ СТОРІНКИ */

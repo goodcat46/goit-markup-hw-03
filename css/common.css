@@ -1,0 +1,225 @@
+:root {
+  --accent-clr-elmnts: #2196F3;
+  --clr-btns-accent: #2196F3;
+  --clr-btns-hover: #188CE8;
+  --clr-btns-nrml: #F5F4FA;
+  --color-contacts-ftr: rgba(255, 255, 255, 0.6);
+  --color-text-primary: #757575;
+  --tittle-clr-bold: #212121;
+  --text-wght-nrml: 400;
+  --text-wght-nrml2: 500;
+  --tittle-wght-bold: 700;
+  --tittle-wght-bol2: 900;
+  --font-fmly-logo: 'Raleway', sans-serif;
+
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  margin: 0px;
+}
+.container {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0px auto;
+  border: 2px solid tomato;
+}
+.header-brdr {
+  border-bottom: 1px solid #ECECEC; 
+}
+.footer-bckrgnd-clr {
+  background-color: #2F303A;
+}
+.team-bckrgnd-clr {
+  background-color: #F5F4FA;
+}
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+.test-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  padding-bottom: 94px;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+}
+
+/* СКРИТІ ЕЛЕМЕНТИ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ---------------------------ШАПКА СТОРІНКИ */
+
+/* ЛОГОТИПЧИК ШАПКА */
+
+.logo-hdr {
+  font-family: var(--font-fmly-logo);
+  font-weight: var(--tittle-wght-bold);
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.logo-hdr .logo-blue {
+  color: var(--accent-clr-elmnts);
+}
+
+/* НАВІГАЦІЯ САЙТОМ */
+
+.nav {
+  font-weight: var(--text-wght-nrml2);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav .nav-link {
+  color: var(--tittle-clr-bold);
+}
+
+.nav .nav-link:focus,
+.nav .nav-link:hover {
+  color: var(--accent-clr-elmnts)
+}
+
+.nav .nav-link:active {
+  color: var(--accent-clr-elmnts)
+}
+
+.nav .nav-link.nav-link-current {
+  color: var(--accent-clr-elmnts);
+}
+
+/* КОНТАКТИ ШАПКА */
+
+.contacts {
+  font-weight: var(--text-wght-nrml2);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* email */
+.contacts .mail {
+  color: var(--color-text-primary);
+}
+
+.contacts .mail:focus,
+.contacts .mail:hover {
+  color: var(--accent-clr-elmnts)
+}
+
+.contacts .mail:active {
+  color: var(--accent-clr-elmnts)
+}
+
+/* tel */
+.contacts .tel {
+  color: var(--color-text-primary);
+}
+
+.contacts .tel:focus,
+.contacts .tel:hover {
+  color: var(--accent-clr-elmnts)
+}
+
+.contacts .tel:active {
+  color: var(--accent-clr-elmnts)
+}
+
+
+/* ---------------------------ОСНОВНА ЧАСТИНА */
+
+
+/* ---------------------------ПІДВАЛ СТОРІНКИ */
+
+/* ЛОГОТИПЧИК ФУТЕР */
+
+.logo-ftr {
+  font-family: var(--font-fmly-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+.logo-ftr .logo-blue {
+  color: var(--accent-clr-elmnts);
+}
+
+/* КОНТАКТИ ФУТЕР */
+
+.contacts-ftr {
+  font-style: normal;
+  line-height: 1.7;
+}
+
+/* address footer */
+
+.contacts-ftr .address {
+  color: #FFFFFF
+}
+
+/* email footer */
+.contacts-ftr .mail-ftr {
+  color: var(--color-contacts-ftr);
+}
+.contacts-ftr .mail-ftr:focus,
+.contacts-ftr .mail-ftr:hover {
+  color: var(--accent-clr-elmnts)
+}
+.contacts-ftr .mail-ftr:active {
+  color: var(--accent-clr-elmnts)
+}
+
+/* tel footer */
+.contacts-ftr .tel-ftr {
+  color: var(--color-contacts-ftr);
+}
+.contacts-ftr .tel-ftr:focus,
+.contacts-ftr .tel-ftr:hover {
+  color: var(--accent-clr-elmnts)
+}
+.contacts-ftr .tel-ftr:active {
+  color: var(--accent-clr-elmnts)
+}
