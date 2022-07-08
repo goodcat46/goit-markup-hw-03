@@ -36,14 +36,16 @@ body {
   width: 1200px;
   padding: 0px 15px;
   margin: 0px auto;
+
   border: 2px solid tomato;
 }
 .header-brdr {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
   border-bottom: 1px solid #ECECEC; 
 }
-.footer-bckrgnd-clr {
-  background-color: #2F303A;
-}
+
 .team-bckrgnd-clr {
   background-color: #F5F4FA;
 }
@@ -55,16 +57,25 @@ ul {
 a {
   text-decoration: none;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .test-flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
+  align-content: space-between;
 }
 
 .section {
   padding-bottom: 94px;
+
+  /* border: 1px solid tomato; */
 
 }
 h1,
@@ -100,6 +111,8 @@ h6 {
   font-size: 26px;
   line-height: 1.2;
   color: #000000;
+
+  margin-right: 93px;
 }
 
 .logo-hdr .logo-blue {
@@ -108,26 +121,28 @@ h6 {
 
 /* НАВІГАЦІЯ САЙТОМ */
 
-.nav {
+.nav-links {
   font-weight: var(--text-wght-nrml2);
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  width: 294px;
 }
 
-.nav .nav-link {
+.nav-links .nav-link {
   color: var(--tittle-clr-bold);
 }
 
-.nav .nav-link:focus,
-.nav .nav-link:hover {
+.nav-links .nav-link:focus,
+.nav-links .nav-link:hover {
   color: var(--accent-clr-elmnts)
 }
 
-.nav .nav-link:active {
+.nav-links .nav-link:active {
   color: var(--accent-clr-elmnts)
 }
 
-.nav .nav-link.nav-link-current {
+.nav-list .nav-link.nav-link-current {
   color: var(--accent-clr-elmnts);
 }
 
@@ -137,6 +152,8 @@ h6 {
   font-weight: var(--text-wght-nrml2);
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  min-width: 310px;
 }
 
 /* email */
@@ -174,15 +191,21 @@ h6 {
 /* ---------------------------ПІДВАЛ СТОРІНКИ */
 
 /* ЛОГОТИПЧИК ФУТЕР */
-
+.section-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2F303A;
+}
 .logo-ftr {
+  display: inline-block;
   font-family: var(--font-fmly-logo);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: #FFFFFF;
-}
 
+  margin-bottom: 20px;
+}
 .logo-ftr .logo-blue {
   color: var(--accent-clr-elmnts);
 }
@@ -192,17 +215,25 @@ h6 {
 .contacts-ftr {
   font-style: normal;
   line-height: 1.7;
+
+  margin: 0px;
 }
 
 /* address footer */
 
 .contacts-ftr .address {
-  color: #FFFFFF
+  display: inline-block;
+  color: #FFFFFF;
+
+  margin-bottom: 9px;
 }
 
 /* email footer */
 .contacts-ftr .mail-ftr {
+  display: inline-block;
   color: var(--color-contacts-ftr);
+
+  margin-bottom: 9px;
 }
 .contacts-ftr .mail-ftr:focus,
 .contacts-ftr .mail-ftr:hover {
@@ -214,7 +245,10 @@ h6 {
 
 /* tel footer */
 .contacts-ftr .tel-ftr {
+  display: inline-block;
   color: var(--color-contacts-ftr);
+
+  margin: 0px;
 }
 .contacts-ftr .tel-ftr:focus,
 .contacts-ftr .tel-ftr:hover {

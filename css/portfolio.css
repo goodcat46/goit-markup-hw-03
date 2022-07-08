@@ -5,7 +5,13 @@
 /* ---------------ФІЛЬТР */
 
 /* КНОПКИ ФІЛЬТР */
+.filtr-container {
+  width: 611px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 
+}
 .btn-filtr {
   background-color: var(--clr-btns-nrml);
   color: var(--tittle-clr-bold);
@@ -17,11 +23,15 @@
   border-radius: 4px;
   border: 1px solid transparent;
   cursor: pointer;
+
+  padding: 6px 22px;
+  margin: 0px;
 }
 .btn-filtr:focus,
 .btn-filtr:hover {
   background-color: var(--clr-btns-accent);
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .btn-filtr:active {
   background-color: var(--clr-btns-nrml);
@@ -42,7 +52,7 @@
 
 .portf-card {
   width: 370px;
-  border-bottom: 1px solid black;
+  border: 1px solid #EEEEEE;
 
   margin-bottom: 30px;
 }
@@ -50,7 +60,6 @@
 .p-card-img {
   margin-bottom: 20px;
 
-  border: 1px solid tomato;
 }
 .portf-card .p-card-tittle {
   color: var(--tittle-clr-bold);
@@ -62,8 +71,6 @@
 
   margin-left: 24px;
   margin-bottom: 10px;
-
-  border: 1px solid tomato;
 }
 .portf-card .p-card-text {
   color: var(--color-text-primary);
@@ -72,8 +79,6 @@
 
   margin-top: 0px;
   margin-left: 24px;
-  margin-bottom: 20PX;
-
-  border: 1px solid tomato;
+  margin-bottom: 20px;
 }
 /* ------------------------ПІДВАЛ СТОРІНКИ portfolio */

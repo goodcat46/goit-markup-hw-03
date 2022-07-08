@@ -9,6 +9,8 @@
   line-height: 1.7;
   text-align: center;
   color: var(--tittle-clr-bold);
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 /* ----------ГЕРОЙ */
 
@@ -76,23 +78,37 @@
 } */
 
 /* ----------ОСОБЛИВОСТІ */
-
+.spcls-container {
+  width: 270px;
+}
 .spcls-tittles {
   font-weight: var(--tittle-wght-bold);
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--tittle-clr-bold);
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .spcls-text {
   line-height: 1.7;
+  margin: 0px;
 }
 
 /* ----------НАША КОМАНДА */
 
 .card-bckrnd {
   background-color: #fff;
+  
   width: 270px;
+  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.wrkr-card-img {
+  margin-bottom: 30px;
 }
 
 /* ІМЕНА ПРАЦІВНИКІВ */
@@ -102,6 +118,9 @@
   line-height: 1.2;
   text-align: center;
   color: var(--tittle-clr-bold);
+
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 /* ПОСАДИ ПРАЦІВНИКІВ */
@@ -111,13 +130,14 @@
   line-height: 1.2;
   text-align: center;
   color: var(--color-text-primary);
+
+  margin: 0px;
 }
 
 /* КАРТИ ЯК ПОСИЛАННЯ. ефекти ХОВЕР і ФОКУС не змінюють кольору текстів  */
 
 .wrkr-card .card:focus,
 .wrkr-card .card:hover {
-  background-color: #e63434;
   color: var(--accent-clr-elmnts)
 }
 .wrkr-card .card:active {

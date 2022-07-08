@@ -17,18 +17,18 @@
 <body>
   <div class="container">
     <!--ШАПКА СТОРІНКИ-->
-    <header class="header-brdr">
+    <header class="header-brdr test-flex">
       <!--Navigation-->
-      <nav>
+      <nav class="nav-list test-flex">
         <a class="logo-hdr" href="./index.html"><span class="logo-blue">Web</span><span>Studio</span></a>
-        <ul class="nav">
+        <ul class="nav-links test-flex">
           <li><a class="nav-link nav-link-current" href="./index.html">Студія</a></li>
           <li><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
           <li><a class="nav-link" href="/">Контакти</a></li>
         </ul>
       </nav>
       <!-- contacts -->
-      <ul class="contacts">
+      <ul class="contacts test-flex">
         <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
@@ -52,30 +52,38 @@
       <div class="section">
         <section>
           <h2 class="visually-hidden">Особливості</h2>
-          <ul>
+          <ul class="test-flex">
             <li>
-              <h3 class="spcls-tittles">Увага до деталей</h3>
-              <p class="spcls-text">
-                Идейные соображения, а также начало повседневной работы по формированию позиции.
-              </p>
+              <div class="spcls-container">
+                <h3 class="spcls-tittles">Увага до деталей</h3>
+                <p class="spcls-text">
+                  Идейные соображения, а также начало повседневной работы по формированию позиции.
+                </p>
+              </div>
             </li>
             <li>
-              <h3 class="spcls-tittles">Пунктуальність</h3>
-              <p class="spcls-text">
-                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-              </p>
+              <div class="spcls-container">
+                <h3 class="spcls-tittles">Пунктуальність</h3>
+                <p class="spcls-text">
+                  Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                </p>
+              </div>
             </li>
             <li>
-              <h3 class="spcls-tittles">Планування</h3>
-              <p class="spcls-text">
-                Равным образом консультация с широким активом в значительной степени обуславливает.
-              </p>
+              <div class="spcls-container">
+                <h3 class="spcls-tittles">Планування</h3>
+                <p class="spcls-text">
+                  Равным образом консультация с широким активом в значительной степени обуславливает.
+                </p>
+              </div>
             </li>
             <li>
-              <h3 class="spcls-tittles">Сучасні технології</h3>
-              <p class="spcls-text">
-                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-              </p>
+              <div class="spcls-container">
+                <h3 class="spcls-tittles">Сучасні технології</h3>
+                <p class="spcls-text">
+                  Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                </p>
+              </div>
             </li>
           </ul>
         </section>
@@ -84,7 +92,7 @@
       <div class="section">
         <section>
           <h2 class="section-tittle">Чим ми займаємось</h2>
-          <ul>
+          <ul class="test-flex">
             <li><img src="./images/studio-imgs/box1.jpg" alt="портфоліо-1" width="370"></li>
             <li><img src="./images/studio-imgs/box2.jpg" alt="портфоліо-2" width="370"></li>
             <li><img src="./images/studio-imgs/box3.jpg" alt="портфоліо-3" width="370"></li>
@@ -92,23 +100,23 @@
         </section>
       </div>
       <!-- НАША КОМАНДА -->
-      <div class="section">
-        <section class="team-bckrgnd-clr">
+      <div class="section team-bckrgnd-clr">
+        <section>
           <h2 class="section-tittle">Наша команда</h2>
-          <ul class="wrkr-card">
+          <ul class="wrkr-card test-flex">
             <li>
-              <a href="/">
-                <div class="card-bckrnd">
-                  <img src="./images/studio-imgs/img1.jpg" alt="Игорь Демьяненко" width="270">
+              <div class="card-bckrnd">
+                <a href="/">
+                  <img class="wrkr-card-img" src="./images/studio-imgs/img1.jpg" alt="Игорь Демьяненко" width="270">
                   <h3 class="wrkr-name">Игорь Демьяненко</h3>
                   <p class="wrkr-position">Product Designer</p>
-                </div>
-              </a>
+                </a>
+              </div>
             </li>
             <li>
               <div class="card-bckrnd">
                 <a href="/">
-                  <img src="./images/studio-imgs/img2.jpg" alt="Ольга Репина" width="270">
+                  <img class="wrkr-card-img" src="./images/studio-imgs/img2.jpg" alt="Ольга Репина" width="270">
                   <h3 class="wrkr-name">Ольга Репина</h3>
                   <p class="wrkr-position">Frontend Developer</p>
                 </a>
@@ -117,7 +125,7 @@
             <li>
               <div class="card-bckrnd">
                 <a href="/">
-                  <img src="./images/studio-imgs/img3.jpg" alt="Николай Тарасов" width="270">
+                  <img class="wrkr-card-img" src="./images/studio-imgs/img3.jpg" alt="Николай Тарасов" width="270">
                   <h3 class="wrkr-name">Николай Тарасов</h3>
                   <p class="wrkr-position">Marketing</p>
                 </a>
@@ -126,7 +134,7 @@
             <li>
               <div class="card-bckrnd">
                 <a href="/">
-                  <img src="./images/studio-imgs/img4.jpg" alt="Михаил Ермаков" width="270">
+                  <img class="wrkr-card-img" src="./images/studio-imgs/img4.jpg" alt="Михаил Ермаков" width="270">
                   <h3 class="wrkr-name">Михаил Ермаков</h3>
                   <p class="wrkr-position">UI Designer</p>
                 </a>
@@ -137,8 +145,8 @@
       </div>
     </main>
     <!--ПІДВАЛ СТОРІНКИ-->
-    <footer class="footer-bckrgnd-clr">
-      <a class="logo-ftr" href="./index.html"><span class="logo-blue">Web</span><span>Studio</span></a>
+    <footer class="section-footer">
+      <a class="logo-ftr" href="/index.html"><span class="logo-blue">Web</span><span>Studio</span></a>
       <address>
         <ul class="contacts-ftr">
           <li><a class="address"
