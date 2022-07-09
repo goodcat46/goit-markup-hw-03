@@ -98,6 +98,7 @@
 
 /* КАРТА ПРАЦІВНИКА */
 .card-bckrnd {
+  display: inline-block;
   background-color: #fff;
   
   width: 270px;
