@@ -9,144 +9,152 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
+    rel="stylesheet"
+  />
+  <!-- NORMALIZATION -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+  />
   <!-- Тут стилі -->
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/studio.css">
 </head>
 <body>
-  <div class="container">
-    <!--ШАПКА СТОРІНКИ-->
-    <header class="header-brdr test-flex">
-      <!--Navigation-->
-      <nav class="nav-list test-flex">
-        <a class="logo-hdr" href="./index.html"><span class="logo-blue">Web</span><span>Studio</span></a>
-        <ul class="nav-links test-flex">
-          <li><a class="nav-link nav-link-current" href="./index.html">Студія</a></li>
-          <li><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="nav-link" href="/">Контакти</a></li>
+  <!-- ШАПКА СТОРІНКИ -->
+  <header class="section-no-padding">
+    <div class="header-brdr">
+      <div class="container header-padding test-flex">
+        <!--Navigation-->
+        <nav class="nav-list test-flex">
+          <a class="logo-hdr" href="./index.html"><span class="logo-blue">Web</span><span>Studio</span></a>
+          <ul class="nav-links test-flex">
+            <li><a class="nav-link nav-link-current" href="./index.html">Студія</a></li>
+            <li><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
+            <li><a class="nav-link" href="/">Контакти</a></li>
+          </ul>
+        </nav>
+        <!-- contacts -->
+        <ul class="contacts test-flex">
+          <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <!-- contacts -->
-      <ul class="contacts test-flex">
-        <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
-    </header>
-    <!--ОСНОВНА ЧАСТИНА-->
-    <main>
-      <!-- BANER -->
-      <div class="section">
-        <section class="hero">
-          <div>
-            <h1 class="text-hero">
-              Ефективні рішення для вашого бізнесу
-            </h1>
-            <button class="button-hero" type="button">
-              Замовити послугу
-            </button>
-          </div>
-        </section>
       </div>
-      <!-- SPECIALS -->
-      <div class="section">
-        <section>
-          <h2 class="visually-hidden">Особливості</h2>
-          <ul class="test-flex">
-            <li>
-              <div class="spcls-container">
-                <h3 class="spcls-tittles">Увага до деталей</h3>
-                <p class="spcls-text">
-                  Идейные соображения, а также начало повседневной работы по формированию позиции.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="spcls-container">
-                <h3 class="spcls-tittles">Пунктуальність</h3>
-                <p class="spcls-text">
-                  Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="spcls-container">
-                <h3 class="spcls-tittles">Планування</h3>
-                <p class="spcls-text">
-                  Равным образом консультация с широким активом в значительной степени обуславливает.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="spcls-container">
-                <h3 class="spcls-tittles">Сучасні технології</h3>
-                <p class="spcls-text">
-                  Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </section>
+    </div>
+  </header>
+  <!-- ОСНОВНА ЧАСТИНА -->
+  <main>
+    <!-- BANER -->
+    <section class="section">
+      <div class="hero">
+        <h1 class="text-hero">
+          Ефективні рішення для вашого бізнесу
+        </h1>
+        <button class="button-hero" type="button">
+          Замовити послугу
+        </button>
       </div>
-      <!-- TYPES OF WORK -->
-      <div class="section">
-        <section>
-          <h2 class="section-tittle">Чим ми займаємось</h2>
-          <ul class="test-flex">
-            <li><img src="./images/studio-imgs/box1.jpg" alt="портфоліо-1" width="370"></li>
-            <li><img src="./images/studio-imgs/box2.jpg" alt="портфоліо-2" width="370"></li>
-            <li><img src="./images/studio-imgs/box3.jpg" alt="портфоліо-3" width="370"></li>
-          </ul>
-        </section>
+    </section>
+    <!-- SPECIALS -->
+    <section class="section">
+      <div class="container">
+        <h2 class="visually-hidden">Особливості</h2>
+        <ul class="test-flex">
+          <li>
+            <div class="spcls-container">
+              <h3 class="spcls-tittles">Увага до деталей</h3>
+              <p class="spcls-text">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="spcls-container">
+              <h3 class="spcls-tittles">Пунктуальність</h3>
+              <p class="spcls-text">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="spcls-container">
+              <h3 class="spcls-tittles">Планування</h3>
+              <p class="spcls-text">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="spcls-container">
+              <h3 class="spcls-tittles">Сучасні технології</h3>
+              <p class="spcls-text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </div>
+          </li>
+        </ul>
       </div>
-      <!-- НАША КОМАНДА -->
-      <div class="section team-bckrgnd-clr">
-        <section>
-          <h2 class="section-tittle">Наша команда</h2>
-          <ul class="wrkr-card test-flex">
-            <li>
-              <div class="card-bckrnd">
-                <a href="/">
-                  <img class="wrkr-card-img" src="./images/studio-imgs/img1.jpg" alt="Игорь Демьяненко" width="270">
-                  <h3 class="wrkr-name">Игорь Демьяненко</h3>
-                  <p class="wrkr-position">Product Designer</p>
-                </a>
-              </div>
-            </li>
-            <li>
-              <div class="card-bckrnd">
-                <a href="/">
-                  <img class="wrkr-card-img" src="./images/studio-imgs/img2.jpg" alt="Ольга Репина" width="270">
-                  <h3 class="wrkr-name">Ольга Репина</h3>
-                  <p class="wrkr-position">Frontend Developer</p>
-                </a>
-              </div>
-            </li>
-            <li>
-              <div class="card-bckrnd">
-                <a href="/">
-                  <img class="wrkr-card-img" src="./images/studio-imgs/img3.jpg" alt="Николай Тарасов" width="270">
-                  <h3 class="wrkr-name">Николай Тарасов</h3>
-                  <p class="wrkr-position">Marketing</p>
-                </a>
-              </div>
-            </li>
-            <li>
-              <div class="card-bckrnd">
-                <a href="/">
-                  <img class="wrkr-card-img" src="./images/studio-imgs/img4.jpg" alt="Михаил Ермаков" width="270">
-                  <h3 class="wrkr-name">Михаил Ермаков</h3>
-                  <p class="wrkr-position">UI Designer</p>
-                </a>
-              </div>
-            </li>
-          </ul>
-        </section>
+    </section>
+    <!-- TYPES OF WORK -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-tittle">Чим ми займаємось</h2>
+        <ul class="test-flex">
+          <li><img src="./images/studio-imgs/box1.jpg" alt="портфоліо-1" width="370"></li>
+          <li><img src="./images/studio-imgs/box2.jpg" alt="портфоліо-2" width="370"></li>
+          <li><img src="./images/studio-imgs/box3.jpg" alt="портфоліо-3" width="370"></li>
+        </ul>
       </div>
-    </main>
-    <!--ПІДВАЛ СТОРІНКИ-->
-    <footer class="section-footer">
-      <a class="logo-ftr" href="/index.html"><span class="logo-blue">Web</span><span>Studio</span></a>
+    </section>
+    <!-- НАША КОМАНДА -->
+    <section class="section-double-padding team-bckrgnd-clr">
+      <div class="container">
+        <h2 class="section-tittle">Наша команда</h2>
+        <ul class="wrkr-card test-flex">
+          <li>
+            <div class="card-bckrnd">
+              <a href="/">
+                <img class="wrkr-card-img" src="./images/studio-imgs/img1.jpg" alt="Игорь Демьяненко" width="270">
+                <h3 class="wrkr-name">Игорь Демьяненко</h3>
+                <p class="wrkr-position">Product Designer</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card-bckrnd">
+              <a href="/">
+                <img class="wrkr-card-img" src="./images/studio-imgs/img2.jpg" alt="Ольга Репина" width="270">
+                <h3 class="wrkr-name">Ольга Репина</h3>
+                <p class="wrkr-position">Frontend Developer</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card-bckrnd">
+              <a href="/">
+                <img class="wrkr-card-img" src="./images/studio-imgs/img3.jpg" alt="Николай Тарасов" width="270">
+                <h3 class="wrkr-name">Николай Тарасов</h3>
+                <p class="wrkr-position">Marketing</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card-bckrnd">
+              <a href="/">
+                <img class="wrkr-card-img" src="./images/studio-imgs/img4.jpg" alt="Михаил Ермаков" width="270">
+                <h3 class="wrkr-name">Михаил Ермаков</h3>
+                <p class="wrkr-position">UI Designer</p>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <!--ПІДВАЛ СТОРІНКИ-->
+  <footer class="section-footer">
+    <div class="container">
+      <a class="logo-ftr" href="./index.html"><span class="logo-blue">Web</span><span>Studio</span></a>
       <address>
         <ul class="contacts-ftr">
           <li><a class="address"
@@ -156,7 +164,7 @@
           <li><a class="tel-ftr" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </body>
 </html>

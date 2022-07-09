@@ -12,8 +12,11 @@
   --tittle-wght-bol2: 900;
   --font-fmly-logo: 'Raleway', sans-serif;
 
+  --testing-brdr-clr: tomato;
+  --testing-brdr-clr: transparent;
+
 }
-html {
+/* html {
   box-sizing: border-box;
 }
 
@@ -21,7 +24,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 
 body {
   background-color: #ffffff;
@@ -37,18 +40,34 @@ body {
   padding: 0px 15px;
   margin: 0px auto;
 
-  border: 2px solid tomato;
+  border: 2px solid var(--testing-brdr-clr)
 }
-.header-brdr {
-  padding-top: 25px;
-  padding-bottom: 25px;
 
+.section {
+  padding-bottom: 94px;
+
+  border: 2px solid var(--testing-brdr-clr);
+}
+.section-no-padding {
+  padding: 0px;
+
+  border: 2px solid var(--testing-brdr-clr);
+}
+.section-double-padding {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  border: 2px solid var(--testing-brdr-clr);
+}
+
+.header-brdr {
   border-bottom: 1px solid #ECECEC; 
 }
-
-.team-bckrgnd-clr {
-  background-color: #F5F4FA;
+.header-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+
 ul {
   list-style: none;
   padding-inline-start: 0px;
@@ -70,21 +89,6 @@ img {
   align-items: center;
   justify-content: space-between;
   align-content: space-between;
-}
-
-.section {
-  padding-bottom: 94px;
-
-  /* border: 1px solid tomato; */
-
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0px;
 }
 
 /* СКРИТІ ЕЛЕМЕНТИ */

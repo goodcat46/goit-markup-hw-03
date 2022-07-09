@@ -33,7 +33,10 @@
   color: #FFFFFF;
 
   width: 696px;
-  margin: 0px auto;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ЗАМОВИТИ ПОСЛУГУ КНОПКА */
@@ -46,15 +49,15 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: #FFFFFF;
-  align-items: center;
+
   border-style: none;
   border-radius: 4px;
   cursor: pointer;
+  border: 1px solid transparent;
 
+  align-items: center;
   padding: 10px 32px;
   min-width: 200px;
-  border: 1px solid transparent;
-  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -68,14 +71,6 @@
   border-color: solid var(--clr-btns-accent);
   color: var(--clr-btns-accent);
 }
-/* .button .btn-text {
-  font-weight: var(--tittle-wght-bold);
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #FFFFFF;
-} */
 
 /* ----------ОСОБЛИВОСТІ */
 .spcls-container {
@@ -97,6 +92,11 @@
 
 /* ----------НАША КОМАНДА */
 
+.team-bckrgnd-clr {
+  background-color: #F5F4FA;
+}
+
+/* КАРТА ПРАЦІВНИКА */
 .card-bckrnd {
   background-color: #fff;
   

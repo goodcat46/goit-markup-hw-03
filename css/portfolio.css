@@ -47,7 +47,7 @@
 .portf-list {
   /* height: 1360px; */
 
-  border: 1px solid tomato;
+  border: 1px solid var(--testing-brdr-clr);
 }
 
 .portf-card {
