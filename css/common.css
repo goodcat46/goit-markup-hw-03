@@ -16,15 +16,6 @@
   --testing-brdr-clr: transparent;
 
 }
-/* html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-} */
 
 body {
   background-color: #ffffff;
@@ -35,8 +26,9 @@ body {
 
   margin: 0px;
 }
+
 .container {
-  width: 1200px;
+  width: 1170px;
   padding: 0px 15px;
   margin: 0px auto;
 
