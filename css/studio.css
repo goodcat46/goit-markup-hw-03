@@ -17,10 +17,11 @@
 /* ФОН ГЕРОЙ */
 .hero {
   background-color: #2F303A;
-  height: 600px;
   align-items: center;
 
   padding-top: 200px;
+  padding-bottom: 210px;
+
 }
 /* ТЕКСТ ГЕРОЙ */
 .hero .text-hero {

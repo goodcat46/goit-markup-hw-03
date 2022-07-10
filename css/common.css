@@ -108,14 +108,15 @@ img {
   line-height: 1.2;
   color: #000000;
 
-  margin-right: 93px;
 }
-
 .logo-hdr .logo-blue {
   color: var(--accent-clr-elmnts);
 }
 
 /* НАВІГАЦІЯ САЙТОМ */
+.nav-list {
+  width: 535px;
+}
 
 .nav-links {
   font-weight: var(--text-wght-nrml2);
