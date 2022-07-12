@@ -12,9 +12,20 @@
   --tittle-wght-bol2: 900;
   --font-fmly-logo: 'Raleway', sans-serif;
 
+  
   --testing-brdr-clr: tomato;
   --testing-brdr-clr: transparent;
 
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
 
 body {
@@ -32,34 +43,43 @@ body {
   padding: 0px 15px;
   margin: 0px auto;
   
-  border: 2px solid var(--testing-brdr-clr)
+  border: 1px solid var(--testing-brdr-clr)
 }
-
 .section {
-  padding-bottom: 94px;
-
-  border: 2px solid var(--testing-brdr-clr);
-}
-.section-no-padding {
-  padding: 0px;
-
-  border: 2px solid var(--testing-brdr-clr);
-}
-.section-double-padding {
   padding-top: 94px;
   padding-bottom: 94px;
 
-  border: 2px solid var(--testing-brdr-clr);
+  border: 1px solid var(--testing-brdr-clr);
+}
+.section.no-padding {
+  padding: 0px;
+
+  border: 1px solid var(--testing-brdr-clr);
+}
+.section.no-top-padding {
+  padding-top: 0px;
+
+  border: 1px solid var(--testing-brdr-clr);
+}
+.section.no-bottom-padding {
+  padding-bottom: 0px;
+
+  border: 1px solid var(--testing-brdr-clr);
 }
 
 .header-brdr {
   border-bottom: 1px solid #ECECEC; 
 }
-.header-padding {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
 ul {
   list-style: none;
   padding-inline-start: 0px;
@@ -67,6 +87,10 @@ ul {
 }
 a {
   text-decoration: none;
+  color: inherit;
+}
+address {
+  font-style: normal;
 }
 img {
   display: block;
@@ -76,11 +100,11 @@ img {
 
 .test-flex {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
   align-items: center;
-  justify-content: space-between;
-  align-content: space-between;
+  /* justify-content: space-between;
+  align-content: space-between; */
 }
 
 /* СКРИТІ ЕЛЕМЕНТИ */
@@ -108,6 +132,9 @@ img {
   line-height: 1.2;
   color: #000000;
 
+  padding-top: 24px;
+  padding-bottom: 25px;
+  /* margin-right: 93px; */
 }
 .logo-hdr .logo-blue {
   color: var(--accent-clr-elmnts);
@@ -115,7 +142,7 @@ img {
 
 /* НАВІГАЦІЯ САЙТОМ */
 .nav-list {
-  width: 535px;
+  margin-right: 332px;
 }
 
 .nav-links {
@@ -123,16 +150,18 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  width: 294px;
+  margin-left: 93px;
 }
 
 .nav-links .nav-link {
+  display: block;
   color: var(--tittle-clr-bold);
 }
 
 .nav-links .nav-link:focus,
 .nav-links .nav-link:hover {
-  color: var(--accent-clr-elmnts)
+  color: var(--accent-clr-elmnts);
+
 }
 
 .nav-links .nav-link:active {
@@ -142,6 +171,8 @@ img {
 .nav-list .nav-link.nav-link-current {
   color: var(--accent-clr-elmnts);
 }
+
+
 
 /* КОНТАКТИ ШАПКА */
 
@@ -192,6 +223,8 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2F303A;
+
+  border: 1px solid var(--testing-brdr-clr);
 }
 .logo-ftr {
   display: inline-block;

@@ -11,6 +11,8 @@
   margin-right: auto;
   margin-bottom: 50px;
 
+  border: 1px solid var(--testing-brdr-clr);
+
 }
 .btn-filtr {
   background-color: var(--clr-btns-nrml);
@@ -55,6 +57,7 @@
   width: 370px;
   border: 1px solid #EEEEEE;
 }
+
 
 .p-card-img {
   margin-bottom: 20px;

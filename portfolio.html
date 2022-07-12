@@ -22,9 +22,9 @@
 </head>
 <body>
   <!--ШАПКА СТОРІНКИ-->
-  <header class="section">
+  <header class="section no-padding">
     <div class="header-brdr">
-      <div class="container header-padding test-flex">
+      <div class="container test-flex">
         <!--Navigation-->
         <nav class="nav-list test-flex">
           <a class="logo-hdr" href="./index.html"><span class="logo-blue">Web</span><span>Studio</span></a>
@@ -44,110 +44,111 @@
   </header>
   <!-- ОСНОВНА ЧАСТИНА -->
   <main>
-    <div class="container">
-      <!-- Фльтр -->
-      <section class="section-no-padding">
+    <h2 class="visually-hidden">Портфоліо</h2>
+    <section class="section">
+      <div class="container">
+        <!-- Фльтр -->
         <div class="filtr-container">
-          <h2 class="visually-hidden">Фільтр робіт</h2>
-          <ul class="test-flex">
-            <li>
-              <button class="btn-filtr btn-filtr-current" type="button">
-                Все
-              </button>
-            </li>
-            <li>
-              <button class="btn-filtr" type="button">
-                Веб-сайти
-              </button>
-            </li>
-            <li>
-              <button class="btn-filtr" type="button">
-                Додатки
-              </button>
-            </li>
-            <li>
-              <button class="btn-filtr" type="button">
-                Дизайн
-              </button>
-            </li>
-            <li>
-              <button class="btn-filtr" type="button">
-                Маркетинг
-              </button>
-            </li>
-          </ul>
+          <h3 class="visually-hidden">Фільтр робіт</h2>
+            <ul class="test-flex">
+              <li>
+                <button class="btn-filtr btn-filtr-current" type="button">
+                  Все
+                </button>
+              </li>
+              <li>
+                <button class="btn-filtr" type="button">
+                  Веб-сайти
+                </button>
+              </li>
+              <li>
+                <button class="btn-filtr" type="button">
+                  Додатки
+                </button>
+              </li>
+              <li>
+                <button class="btn-filtr" type="button">
+                  Дизайн
+                </button>
+              </li>
+              <li>
+                <button class="btn-filtr" type="button">
+                  Маркетинг
+                </button>
+              </li>
+            </ul>
         </div>
-      </section>
-      <!-- Розкладка робіт -->
-      <section class="section">
-        <h2 class="visually-hidden">Портфоліо робіт</h2>
-        <ul class="portf-list test-flex">
-          <li>
-            <a class="portf-card" href="./">
-              <img class="p-card-img" src="./images/portfolio-img/img1.jpg" alt="портфоліо-1" width="370">
-              <h3 class="p-card-tittle">Технокряк</h3>
-              <p class="p-card-text">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a class="portf-card" href="./">
-              <img class="p-card-img" src="./images/portfolio-img/img2.jpg" alt="портфоліо-2" width="370">
-              <h3 class="p-card-tittle">Постер New Orlean vs Golden Star</h3>
-              <p class="p-card-text">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a class="portf-card" href="./">
-              <img class="p-card-img" src="./images/portfolio-img/img3.jpg" alt="портфоліо-3" width="370">
-              <h3 class="p-card-tittle">Ресторан Seafood</h3>
-              <p class="p-card-text">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a class="portf-card" href="./">
-              <img class="p-card-img" src="./images/portfolio-img/img4.jpg" alt="портфоліо-4" width="370">
-              <h3 class="p-card-tittle">Проект Prime</h3>
-              <p class="p-card-text">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a class="portf-card" href="./">
-              <img class="p-card-img" src="./images/portfolio-img/img5.jpg" alt="портфоліо-5" width="370">
-              <h3 class="p-card-tittle">Проект Boxes</h3>
-              <p class="p-card-text">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a class="portf-card" href="./">
-              <img class="p-card-img" src="./images/portfolio-img/img6.jpg" alt="портфоліо-6" width="370">
-              <h3 class="p-card-tittle">Inspiration has no Borders</h3>
-              <p class="p-card-text">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a class="portf-card" href="./">
-              <img class="p-card-img" src="./images/portfolio-img/img7.jpg" alt="портфоліо-7" width="370">
-              <h3 class="p-card-tittle">Издание Limited Edition</h3>
-              <p class="p-card-text">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a class="portf-card" href="./">
-              <img class="p-card-img" src="./images/portfolio-img/img8.jpg" alt="портфоліо-8" width="370">
-              <h3 class="p-card-tittle">Проект LAB</h3>
-              <p class="p-card-text">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a class="portf-card" href="./">
-              <img class="p-card-img" src="./images/portfolio-img/img9.jpg" alt="портфоліо-9" width="370">
-              <h3 class="p-card-tittle">Growing Business</h3>
-              <p class="p-card-text">Приложение</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-    </div>
+        <!-- Розкладка робіт -->
+        <div>
+          <h3 class="visually-hidden">Портфоліо робіт</h2>
+            <ul class="portf-list test-flex">
+              <li>
+                <a class="portf-card" href="./">
+                  <img class="p-card-img" src="./images/portfolio-img/img1.jpg" alt="портфоліо-1" width="370">
+                  <h3 class="p-card-tittle">Технокряк</h3>
+                  <p class="p-card-text">Веб-сайт</p>
+                </a>
+              </li>
+              <li>
+                <a class="portf-card" href="./">
+                  <img class="p-card-img" src="./images/portfolio-img/img2.jpg" alt="портфоліо-2" width="370">
+                  <h3 class="p-card-tittle">Постер New Orlean vs Golden Star</h3>
+                  <p class="p-card-text">Дизайн</p>
+                </a>
+              </li>
+              <li>
+                <a class="portf-card" href="./">
+                  <img class="p-card-img" src="./images/portfolio-img/img3.jpg" alt="портфоліо-3" width="370">
+                  <h3 class="p-card-tittle">Ресторан Seafood</h3>
+                  <p class="p-card-text">Приложение</p>
+                </a>
+              </li>
+              <li>
+                <a class="portf-card" href="./">
+                  <img class="p-card-img" src="./images/portfolio-img/img4.jpg" alt="портфоліо-4" width="370">
+                  <h3 class="p-card-tittle">Проект Prime</h3>
+                  <p class="p-card-text">Маркетинг</p>
+                </a>
+              </li>
+              <li>
+                <a class="portf-card" href="./">
+                  <img class="p-card-img" src="./images/portfolio-img/img5.jpg" alt="портфоліо-5" width="370">
+                  <h3 class="p-card-tittle">Проект Boxes</h3>
+                  <p class="p-card-text">Приложение</p>
+                </a>
+              </li>
+              <li>
+                <a class="portf-card" href="./">
+                  <img class="p-card-img" src="./images/portfolio-img/img6.jpg" alt="портфоліо-6" width="370">
+                  <h3 class="p-card-tittle">Inspiration has no Borders</h3>
+                  <p class="p-card-text">Веб-сайт</p>
+                </a>
+              </li>
+              <li>
+                <a class="portf-card" href="./">
+                  <img class="p-card-img" src="./images/portfolio-img/img7.jpg" alt="портфоліо-7" width="370">
+                  <h3 class="p-card-tittle">Издание Limited Edition</h3>
+                  <p class="p-card-text">Дизайн</p>
+                </a>
+              </li>
+              <li>
+                <a class="portf-card" href="./">
+                  <img class="p-card-img" src="./images/portfolio-img/img8.jpg" alt="портфоліо-8" width="370">
+                  <h3 class="p-card-tittle">Проект LAB</h3>
+                  <p class="p-card-text">Маркетинг</p>
+                </a>
+              </li>
+              <li>
+                <a class="portf-card" href="./">
+                  <img class="p-card-img" src="./images/portfolio-img/img9.jpg" alt="портфоліо-9" width="370">
+                  <h3 class="p-card-tittle">Growing Business</h3>
+                  <p class="p-card-text">Приложение</p>
+                </a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </section>
   </main>
   <!-- ПІДВАЛ СТОРІНКИ -->
   <footer class="section-footer">
