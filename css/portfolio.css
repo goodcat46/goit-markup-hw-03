@@ -14,6 +14,11 @@
   border: 1px solid var(--testing-brdr-clr);
 
 }
+
+.filtr-items>li:not(:last-child) {
+  margin-right: 8px;
+}
+
 .btn-filtr {
   background-color: var(--clr-btns-nrml);
   color: var(--tittle-clr-bold);

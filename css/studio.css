@@ -71,6 +71,9 @@
 .spcls-container {
   width: 270px;
 }
+.spcls-list>li:not(:last-child) {
+  margin-right: 30px;
+}
 .spcls-tittles {
   font-weight: var(--tittle-wght-bold);
   font-size: 14px;
@@ -85,14 +88,21 @@
   margin: 0px;
 }
 
-/* ----------НАША КОМАНДА */
+/* ----------TYPES OF WORK */
+.works-list>li:not(:last-child) {
+  margin-right: 30px;
+}
 
-.team-bckrgnd-clr {
+/* ----------НАША КОМАНДА */
+.team-bckgrnd-clr {
   background-color: #F5F4FA;
+}
+.wrkr-cards-list>li:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* КАРТА ПРАЦІВНИКА */
-.card-bckrnd {
+.wrkr-card {
   display: inline-block;
   background-color: #fff;
   
@@ -103,7 +113,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.wrkr-card-img {
+.wrkr-card img {
   margin-bottom: 30px;
 }
 
@@ -130,15 +140,6 @@
   margin: 0px;
 }
 
-/* КАРТИ ЯК ПОСИЛАННЯ. ефекти ХОВЕР і ФОКУС не змінюють кольору текстів  */
-
-.wrkr-card .card:focus,
-.wrkr-card .card:hover {
-  color: var(--accent-clr-elmnts)
-}
-.wrkr-card .card:active {
-  color: var(--accent-clr-elmnts)
-}
 
 
 
