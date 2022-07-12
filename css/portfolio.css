@@ -6,13 +6,9 @@
 
 /* КНОПКИ ФІЛЬТР */
 .filtr-container {
-  width: 611px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 50px;
 
-  border: 1px solid var(--testing-brdr-clr);
-
+  /* border: var(--testing-brdr-wght) solid var(--testing-brdr-clr); */
 }
 
 .filtr-items>li:not(:last-child) {
@@ -51,10 +47,16 @@
 }
 
 /* РОЗКЛАДКА РОБІТ */
-.portf-list {
-  min-height: 1170px;
+.portfolio-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 26px;
+  row-gap: 30px;
 
-  border: 1px solid var(--testing-brdr-clr);
+  max-width: 1170px;
+
+  border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
 }
 
 .portf-card {

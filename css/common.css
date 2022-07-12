@@ -14,7 +14,7 @@
 
   
   --testing-brdr-clr: tomato;
-  --testing-brdr-clr: transparent;
+  --testing-brdr-wght: 1px;
 
 }
 
@@ -42,29 +42,29 @@ body {
   max-width: 1200px;
   padding: 0px 15px;
   margin: 0px auto;
+  border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
   
-  border: 1px solid var(--testing-brdr-clr)
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 
-  border: 1px solid var(--testing-brdr-clr);
+  border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
 }
 .section.no-padding {
   padding: 0px;
 
-  border: 1px solid var(--testing-brdr-clr);
+  border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
 }
 .section.no-top-padding {
   padding-top: 0px;
 
-  border: 1px solid var(--testing-brdr-clr);
+  border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
 }
 .section.no-bottom-padding {
   padding-bottom: 0px;
 
-  border: 1px solid var(--testing-brdr-clr);
+  border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
 }
 
 .header-brdr {
@@ -105,7 +105,12 @@ img {
   align-items: center;
   justify-content: center;
   /* align-content: space-between; */
+
+  border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
 }
+
+
+
 
 /* СКРИТІ ЕЛЕМЕНТИ */
 .visually-hidden {
@@ -231,7 +236,7 @@ img {
   padding-bottom: 60px;
   background-color: #2F303A;
 
-  border: 1px solid var(--testing-brdr-clr);
+  border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
 }
 .logo-ftr {
   display: inline-block;
@@ -241,7 +246,7 @@ img {
   line-height: 1.2;
   color: #FFFFFF;
 
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .logo-ftr .logo-blue {
   color: var(--accent-clr-elmnts);
@@ -254,22 +259,22 @@ img {
 
   margin: 0px;
 }
+.contacts-ftr>li:not(:last-child) {
+  padding-bottom: 9px;
+}
+
 
 /* address footer */
 
 .contacts-ftr .address {
   display: inline-block;
   color: #FFFFFF;
-
-  margin-bottom: 9px;
 }
 
 /* email footer */
 .contacts-ftr .mail-ftr {
   display: inline-block;
   color: var(--color-contacts-ftr);
-
-  margin-bottom: 9px;
 }
 .contacts-ftr .mail-ftr:focus,
 .contacts-ftr .mail-ftr:hover {
@@ -283,8 +288,6 @@ img {
 .contacts-ftr .tel-ftr {
   display: inline-block;
   color: var(--color-contacts-ftr);
-
-  margin: 0px;
 }
 .contacts-ftr .tel-ftr:focus,
 .contacts-ftr .tel-ftr:hover {
