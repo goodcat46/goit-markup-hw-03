@@ -67,10 +67,6 @@ body {
   border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
 }
 
-.header-brdr {
-  border-bottom: 1px solid #ECECEC; 
-}
-
 h1,
 h2,
 h3,
@@ -110,8 +106,6 @@ img {
 }
 
 
-
-
 /* СКРИТІ ЕЛЕМЕНТИ */
 .visually-hidden {
   position: absolute;
@@ -127,6 +121,10 @@ img {
 }
 
 /* ---------------------------ШАПКА СТОРІНКИ */
+
+.header-bottom-brdr {
+  border-bottom: 1px solid #ECECEC;
+}
 
 /* ЛОГОТИПЧИК ШАПКА */
 
