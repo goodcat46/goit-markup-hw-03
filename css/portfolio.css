@@ -22,6 +22,7 @@
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  
   border-style: none;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -34,12 +35,14 @@
 .btn-filtr:hover {
   background-color: var(--clr-btns-accent);
   color: #ffffff;
+
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .btn-filtr:active {
   background-color: var(--clr-btns-nrml);
-  border-color: solid var(--clr-btns-accent);
   color: var(--clr-btns-accent);
+
+  border-color: solid var(--clr-btns-accent);
 }
 .btn-filtr-current {
   background-color: var(--clr-btns-accent);
@@ -51,7 +54,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  column-gap: 26px;
+  column-gap: 27px;
   row-gap: 30px;
 
   max-width: 1170px;
@@ -60,14 +63,14 @@
 }
 
 .portf-card {
-  display: inline-block;
+  display: block;
   width: 370px;
   border: 1px solid #EEEEEE;
 }
 
 
 .p-card-img {
-  margin-bottom: 20px;
+  PADDING-bottom: 20px;
 
 }
 .portf-card .p-card-tittle {
@@ -77,17 +80,17 @@
   line-height: 2;
   letter-spacing: 0.06em;
 
-
-  margin-left: 24px;
-  margin-bottom: 10px;
+margin: 0px;
+  padding-left: 24px;
+  padding-bottom: 10px;
 }
 .portf-card .p-card-text {
   color: var(--color-text-primary);
   font-size: 16px;
   line-height: 1.88;
 
-  margin-top: 0px;
-  margin-left: 24px;
-  margin-bottom: 20px;
+  margin: 0px;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 /* ------------------------ПІДВАЛ СТОРІНКИ portfolio */

@@ -146,33 +146,34 @@ img {
 }
 
 /* НАВІГАЦІЯ САЙТОМ */
-.nav-list {
-  margin-right: 332px;
+.nav-zone {
+  margin-right: auto;
 }
 
-.nav-links {
+.nav-list {
   font-weight: var(--text-wght-nrml2);
   line-height: 1.14;
   letter-spacing: 0.02em;
-
 }
 
-.nav-links .nav-link {
+.nav-list .nav-link {
   display: block;
   color: var(--tittle-clr-bold);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
-.nav-links>li:not(:last-child) {
+.nav-list>li:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-links .nav-link:focus,
-.nav-links .nav-link:hover {
+.nav-list .nav-link:focus,
+.nav-list .nav-link:hover {
   color: var(--accent-clr-elmnts);
-
 }
 
-.nav-links .nav-link:active {
+.nav-list .nav-link:active {
   color: var(--accent-clr-elmnts)
 }
 
@@ -189,7 +190,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  min-width: 310px;
+  /* min-width: 310px; */
 }
 
 .contacts>li:not(:last-child) {
@@ -198,7 +199,11 @@ img {
 
 /* email */
 .contacts .mail {
+  display: block;
   color: var(--color-text-primary);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contacts .mail:focus,
@@ -212,7 +217,11 @@ img {
 
 /* tel */
 .contacts .tel {
+  display: block;
   color: var(--color-text-primary);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contacts .tel:focus,
