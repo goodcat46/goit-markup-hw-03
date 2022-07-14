@@ -14,6 +14,7 @@
 
   
   --testing-brdr-clr: tomato;
+  --testing-brdr-clr: transparent;
   --testing-brdr-wght: 1px;
 
 }
@@ -246,7 +247,7 @@ img {
   line-height: 1.2;
   color: #FFFFFF;
 
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .logo-ftr .logo-blue {
   color: var(--accent-clr-elmnts);
@@ -256,11 +257,9 @@ img {
 
 .contacts-ftr {
   line-height: 1.7;
-
-  margin: 0px;
 }
 .contacts-ftr>li:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 
