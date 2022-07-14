@@ -7,10 +7,14 @@
 /* КНОПКИ ФІЛЬТР */
 .filtr-container {
   margin-bottom: 50px;
-
-  /* border: var(--testing-brdr-wght) solid var(--testing-brdr-clr); */
 }
-
+.filtr-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
+}
 .filtr-items>li:not(:last-child) {
   margin-right: 8px;
 }
@@ -59,7 +63,7 @@
 
   max-width: 1170px;
 
-  border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
+  outline: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
 }
 
 .portf-card {
@@ -80,7 +84,7 @@
   line-height: 2;
   letter-spacing: 0.06em;
 
-margin: 0px;
+  margin: 0px;
   padding-left: 24px;
   padding-bottom: 10px;
 }
